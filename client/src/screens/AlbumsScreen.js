@@ -3,6 +3,13 @@ import Footer from "../components/footer";
 import Masthead from "../components/masthead";
 import React from "react";
 import {Link} from "react-router-dom";
+import CapeDory from "../images/albums/Cape-Dory.png";
+import RitualInRepeat from "../images/albums/Ritual-in-Repeat.png";
+import SmallSound from "../images/albums/Small-Sound.png";
+import Swimmer from "../images/albums/Swimmer.png";
+import WeCanDieHappy from "../images/albums/We-Can-Die-Happy.png";
+import YoungAndOld from "../images/albums/Young-and-Old.png";
+import YoursConditionally from "../images/albums/Yours-Conditionally.png"
 
 /**
  * @author
@@ -26,7 +33,7 @@ const AlbumScreen = (props) => {
             <article className="cardy">
               <Link to="/swimmer" target="_self">
                 <img
-                  src="./images/albums/Swimmer.png"
+                  src={Swimmer}
                   className="cardy-img-top img-fluid rounded"
                   alt="Tennis: Swimmer(2020)"
                 />
@@ -39,7 +46,7 @@ const AlbumScreen = (props) => {
             <article className="cardy">
               <Link to="/wecandiehappy" target="_self">
                 <img
-                  src="./images/albums/We-Can-Die-Happy.png"
+                  src={WeCanDieHappy}
                   className="card-img-top img-fluid rounded"
                   alt="Tennis: We Can Die Happy(November, 2017)"
                 />
@@ -54,7 +61,7 @@ const AlbumScreen = (props) => {
             <article className="cardy">
               <Link to="/yoursconditionally" target="_self">
                 <img
-                  src="./images/albums/Yours-Conditionally.png"
+                  src={YoursConditionally}
                   className="card-img-top img-fluid rounded"
                   alt="Tennis: Yours Conditionally(March, 2017)"
                 />
@@ -67,7 +74,7 @@ const AlbumScreen = (props) => {
             <article className="cardy">
               <Link to="/ritualinrepeat" target="_self">
                 <img
-                  src="./images/albums/Ritual-in-Repeat.png"
+                  src={RitualInRepeat}
                   className="card-img-top img-fluid rounded"
                   alt="Tennis: Ritual in Repeat(September, 2014)"
                 />
@@ -82,7 +89,7 @@ const AlbumScreen = (props) => {
             <article className="cardy">
               <Link to="/smallsound" target="_self">
                 <img
-                  src="./images/albums/Small-Sound.png"
+                  src={SmallSound}
                   className="card-img-top img-fluid rounded"
                   alt="Tennis: Small Sound(November, 2013)"
                 />
@@ -95,7 +102,7 @@ const AlbumScreen = (props) => {
             <article className="cardy">
               <Link to="/youngandold" target="_self">
                 <img
-                  src="./images/albums/Young-and-Old.png"
+                  src={YoungAndOld}
                   className="card-img-top img-fluid rounded"
                   alt="Tennis: Young and Old(Feb, 2012)"
                 />
@@ -110,7 +117,7 @@ const AlbumScreen = (props) => {
             <article className="cardy">
               <Link to="capedory" target="_self">
                 <img
-                  src="./images/albums/Cape-Dory.png"
+                  src={CapeDory}
                   className="card-img-top img-fluid rounded"
                   alt="Tennis: Cape Dory(January, 2011)"
                 />

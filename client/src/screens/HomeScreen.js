@@ -2,6 +2,7 @@ import Nav from "../components/nav";
 import Footer from "../components/footer";
 import Masthead from "../components/masthead";
 import React from "react";
+import ProfileImage from '../images/Tennis_Profile.png'
 
 /**
  * @author
@@ -22,7 +23,7 @@ const HomeScreen = (props) => {
             <article>
               <img
                 className="aboutImg rounded mr-4 mb-3"
-                src="./images/Tennis_Profile.png"
+                src={ProfileImage}
                 alt="Tennis"
                 width="50%"
                 height="50%"

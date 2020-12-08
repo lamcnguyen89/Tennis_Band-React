@@ -42,10 +42,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100%;
-  min-width: 100%;
-  min-height: 100%;
-  margin:0;
 }
 
 .background-music {
@@ -53,10 +49,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100%;
-  min-width: 100%;
-  min-height: 100%;
-  margin:0;
 }
 
 .background-store {
@@ -64,10 +56,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100%;
-  min-width: 100%;
-  min-height: 100%;
-  margin:0;
 }
 
 .background-contact {
@@ -75,10 +63,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100%;
-  min-width: 100%;
-  min-height: 100%;
-  margin:0;
 }
 
 .background-album {
@@ -86,10 +70,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100%;
-  min-width: 100%;
-  min-height: 100%;
-  margin:0;
 } */
 
 .banner{
@@ -100,7 +80,8 @@ body {
 
 .fa {
   font-size:24px;
-  color: #f7f8e3; 
+  color: #f7f8e3;
+  margin: 2px; 
 }
 
 .headingformats {
