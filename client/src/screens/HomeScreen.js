@@ -1,8 +1,10 @@
 import Nav from "../components/nav";
 import Footer from "../components/footer";
 import Masthead from "../components/masthead";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import ProfileImage from '../images/Tennis_Profile.png'
+import shows from '../data/showdates.json';
+
 
 /**
  * @author
@@ -10,6 +12,15 @@ import ProfileImage from '../images/Tennis_Profile.png'
  **/
 
 const HomeScreen = (props) => {
+
+  const [posts, setPosts] = useState([]);
+  useEffect(() => {
+    const posts = shows;
+    setPosts(posts);
+}, [posts]);
+
+console.log(posts)
+
   return (
     <div className="background-about">
       <Masthead />
@@ -67,7 +78,37 @@ const HomeScreen = (props) => {
           <div className="table-responsive">
             <table className="table table-hover">
               <thead></thead>
-              <tbody id="tourRows"></tbody>
+              <tbody id="tourRows">
+                    {
+                        posts.map(post => {
+                            return (
+                              <tr>
+                                <td>  
+                                    <div class="seated-event-date-cell">
+                                        {post.eventDate}
+                                    </div>
+                                    <div class="seated-event-venue-cell">
+                                        {post.venueName}
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="seated-event-venue-location">
+                                        {post.venueLocation}
+                                    </div>             
+                                </td>
+                                <td> 
+                                    <div class="seated-event-link-cells">
+                                        <a class="seated-event-link1" href={post.eventURL} target="_blank" rel="noreferrer">
+                                            {post.eventStatus}
+                                        </a> 
+                                    </div>
+
+                                </td>
+                              </tr>
+                            );
+                        })
+                    }
+              </tbody>
             </table>
           </div>
         </article>
