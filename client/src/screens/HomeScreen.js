@@ -19,7 +19,7 @@ const HomeScreen = (props) => {
     setPosts(posts);
 }, [posts]);
 
-console.log(posts)
+
 
   return (
     <div className="background-about">
@@ -82,23 +82,23 @@ console.log(posts)
                     {
                         posts.map(post => {
                             return (
-                              <tr>
+                              <tr key={post.id}>
                                 <td>  
-                                    <div class="seated-event-date-cell">
+                                    <div className="seated-event-date-cell">
                                         {post.eventDate}
                                     </div>
-                                    <div class="seated-event-venue-cell">
+                                    <div className="seated-event-venue-cell">
                                         {post.venueName}
                                     </div>
                                 </td>
                                 <td>
-                                    <div class="seated-event-venue-location">
+                                    <div className="seated-event-venue-location">
                                         {post.venueLocation}
                                     </div>             
                                 </td>
                                 <td> 
-                                    <div class="seated-event-link-cells">
-                                        <a class="seated-event-link1" href={post.eventURL} target="_blank" rel="noreferrer">
+                                    <div className="seated-event-link-cells">
+                                        <a className="seated-event-link1" href={post.eventURL} target="_blank" rel="noreferrer">
                                             {post.eventStatus}
                                         </a> 
                                     </div>
