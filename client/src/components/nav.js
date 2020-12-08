@@ -21,10 +21,10 @@ class Navbar extends Component {
                   </button>
                   <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                      <Link className="nav-item nav-link navigationtext" to="/">About</Link>
-                      <Link className="nav-item nav-link navigationtext" to="/music">About</Link>
-                      <Link className="nav-item nav-link navigationtext" to="/store">About</Link>
-                      <Link className="nav-item nav-link navigationtext" to="/contact">About</Link>
+                      <Link className="nav-item nav-link navigationtext" to="/home">About</Link>
+                      <Link className="nav-item nav-link navigationtext" to="/music">Music</Link>
+                      <Link className="nav-item nav-link navigationtext" to="/store">Store</Link>
+                      <Link className="nav-item nav-link navigationtext" to="/contact">Contact</Link>
                     </div>
                   </div>
             </div>

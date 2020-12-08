@@ -1,13 +1,141 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: myFirstFont;
+  src: url("./fonts/TR\ Pump\ Triline.TTF");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: mySecondFont;
+  src: url("./fonts/TR\ Candice.TTF");
+}
+
+@font-face {
+  font-family: myThirdFont;
+  src: url("./fonts/Gerona.ttf");
+}
+
+html, body, #root, .App {
+  height: 100%;
+
+
+}
+
+.aboutImg {
+  float: left;
+}
+
+.seated-event-link1 {
+  color: #f7f8e3;
+  /* border-style: solid;
+  border-collapse: collapse; */
+  border-radius: 50px;
+  border-width: thin; 
+  padding: 10px;
+}
+
+.background-about {
+  background-image: url("./images/Tennis_Background-07.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.background-music {
+  background-image: url("./images/Tennis_Background-05.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.background-store {
+  background-image: url("./images/Tennis_Background-04.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.background-contact {
+  background-image: url("./images/Tennis_Background-02.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.background-album {
+  background-image: url("./images/Tennis_Background-08.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.banner{
+  color: #f7f8e3;
+  font-family: myThirdFont;
+  font-size: 120px;
+}
+
+.fa {
+  font-size:24px;
+  color: #f7f8e3; 
+}
+
+.headingformats {
+  text-align: center;
+}
+
+main {
+  background-color: rgba(97, 81, 81, 0.4);
+  color: #f7f8e3;
+  font-family: myThirdFont 
+}
+
+footer {
+  color: #f7f8e3;
+  font-family: myThirdFont
+}
+
+
+.navigationtext {
+  color: #f7f8e3;
+  font-family: myThirdFont 
+}
+
+.dropdown {
+  background-color: rgba(247, 248, 227, 0.5) !important;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+  border: none;
+
+}
+
+.list-group-item {
+  background-color: rgba(247, 248, 227, 0.5) !important; 
+}
+
+
+th, tr{
+  color: #f7f8e3;
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media (max-width: 320px) {
+  .banner {
+      font-size: 70px;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+      font-size: 95px;
+
+  }
 }
