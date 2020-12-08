@@ -23,11 +23,11 @@ const AlbumScreen = (props) => {
 
         <article className="row">
           <article className="col-sm-6 mt-3 p-3">
-            <article className="card">
+            <article className="cardy">
               <Link to="/swimmer" target="_self">
                 <img
                   src="./images/albums/Swimmer.png"
-                  className="card-img-top img-fluid rounded"
+                  className="cardy-img-top img-fluid rounded"
                   alt="Tennis: Swimmer(2020)"
                 />
               </Link>
@@ -36,7 +36,7 @@ const AlbumScreen = (props) => {
           </article>
 
           <article className="col-sm-6 mt-3 p-3">
-            <article className="card">
+            <article className="cardy">
               <Link to="/wecandiehappy" target="_self">
                 <img
                   src="./images/albums/We-Can-Die-Happy.png"
@@ -51,7 +51,7 @@ const AlbumScreen = (props) => {
 
         <article className="row">
           <article className="col-sm-6 mt-3 p-3">
-            <article className="card">
+            <article className="cardy">
               <Link to="/yoursconditionally" target="_self">
                 <img
                   src="./images/albums/Yours-Conditionally.png"
@@ -64,7 +64,7 @@ const AlbumScreen = (props) => {
           </article>
 
           <article className="col-sm-6 mt-3 p-3">
-            <article className="card">
+            <article className="cardy">
               <Link to="/ritualinrepeat" target="_self">
                 <img
                   src="./images/albums/Ritual-in-Repeat.png"
@@ -79,7 +79,7 @@ const AlbumScreen = (props) => {
 
         <article className="row">
           <article className="col-sm-6 mt-3 p-3">
-            <article className="card">
+            <article className="cardy">
               <Link to="/smallsound" target="_self">
                 <img
                   src="./images/albums/Small-Sound.png"
@@ -92,7 +92,7 @@ const AlbumScreen = (props) => {
           </article>
 
           <article className="col-sm-6 mt-3 p-3">
-            <article className="card">
+            <article className="cardy">
               <Link to="/youngandold" target="_self">
                 <img
                   src="./images/albums/Young-and-Old.png"
@@ -107,7 +107,7 @@ const AlbumScreen = (props) => {
 
         <article className="row">
           <article className="col-sm-6 mt-3 p-3">
-            <article className="card">
+            <article className="cardy">
               <Link to="capedory" target="_self">
                 <img
                   src="./images/albums/Cape-Dory.png"

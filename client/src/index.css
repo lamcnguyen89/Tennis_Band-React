@@ -15,8 +15,13 @@
 
 html, body, #root, .App {
   height: 100%;
+}
 
-
+body {
+  background-image: url("./images/Tennis_Background-02.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .aboutImg {
@@ -32,12 +37,15 @@ html, body, #root, .App {
   padding: 10px;
 }
 
-.background-about {
+/* .background-about {
   background-image: url("./images/Tennis_Background-07.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  margin:0;
 }
 
 .background-music {
@@ -45,7 +53,10 @@ html, body, #root, .App {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  margin:0;
 }
 
 .background-store {
@@ -53,7 +64,10 @@ html, body, #root, .App {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  margin:0;
 }
 
 .background-contact {
@@ -61,7 +75,10 @@ html, body, #root, .App {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  margin:0;
 }
 
 .background-album {
@@ -69,8 +86,11 @@ html, body, #root, .App {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
-}
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  margin:0;
+} */
 
 .banner{
   color: #f7f8e3;
@@ -108,7 +128,7 @@ footer {
   background-color: rgba(247, 248, 227, 0.5) !important;
 }
 
-.card {
+.cardy {
   background-color: rgba(0, 0, 0, 0);
   text-align: center;
   border: none;
