@@ -1,7 +1,5 @@
-import Nav from "../components/nav";
-import Footer from "../components/footer";
-import Masthead from "../components/masthead";
 import React from "react";
+import BodyClassName from 'react-body-classname';
 
 /**
  * @author
@@ -10,9 +8,7 @@ import React from "react";
 
 const ErrorScreen = (props) => {
   return (
-    <div className="background-contact">
-      <Masthead />
-      <Nav />
+    <BodyClassName className="background-contact">
       <main className="container p-2 mb-4 rounded">
         <h1 className="headingformats">
           There was an error submitting your Form...
@@ -23,8 +19,7 @@ const ErrorScreen = (props) => {
           pages on this portfolio.
         </h4>
       </main>
-      <Footer />
-    </div>
+    </BodyClassName>
   );
 };
 

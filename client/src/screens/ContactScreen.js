@@ -1,7 +1,5 @@
-import Nav from "../components/nav";
-import Footer from "../components/footer";
-import Masthead from "../components/masthead";
 import React, { Component } from "react";
+import BodyClassName from 'react-body-classname';
 import Axios from "axios";
 import { Redirect } from "react-router-dom";
 
@@ -50,9 +48,7 @@ class ContactScreen extends Component {
     }
 
     return (
-      <div>
-        <Masthead />
-        <Nav />
+      <BodyClassName className="background-contact">
         {/* This section contains the html for the contact form. 
               The formatting for this form was taken off Bootstrap. */}
         <main className="container p-2 my-4">
@@ -111,8 +107,7 @@ class ContactScreen extends Component {
           </article>
 
         </main>
-        <Footer />
-      </div>
+      </BodyClassName>
     );
   }
 }

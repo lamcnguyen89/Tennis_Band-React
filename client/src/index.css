@@ -17,13 +17,6 @@ html, body, #root, .App {
   height: 100%;
 }
 
-body {
-  background-image: url("./images/Tennis_Background-02.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
 .aboutImg {
   float: left;
 }
@@ -37,7 +30,7 @@ body {
   padding: 10px;
 }
 
-/* .background-about {
+.background-about {
   background-image: url("./images/Tennis_Background-07.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,7 +63,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-} */
+}
 
 .banner{
   color: #f7f8e3;

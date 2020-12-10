@@ -1,8 +1,6 @@
-import Nav from "../components/nav";
-import Footer from "../components/footer";
-import Masthead from "../components/masthead";
 import React from "react";
 import {Link} from "react-router-dom";
+import BodyClassName from 'react-body-classname';
 import CapeDory from "../images/albums/Cape-Dory.png";
 import RitualInRepeat from "../images/albums/Ritual-in-Repeat.png";
 import SmallSound from "../images/albums/Small-Sound.png";
@@ -18,9 +16,7 @@ import YoursConditionally from "../images/albums/Yours-Conditionally.png"
 
 const AlbumScreen = (props) => {
   return (
-    <div className="background-music">
-      <Masthead />
-      <Nav />
+    <BodyClassName className="background-music">
       <main className="container p-2 mb-4 rounded">
         <h1 className="headingformats">Our Music</h1>
         <h5 className="headingformats">
@@ -127,8 +123,7 @@ const AlbumScreen = (props) => {
           </article>
         </article>
       </main>
-      <Footer />
-    </div>
+    </BodyClassName>
   );
 };
 

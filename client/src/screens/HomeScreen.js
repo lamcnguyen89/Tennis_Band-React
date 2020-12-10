@@ -1,7 +1,5 @@
-import Nav from "../components/nav";
-import Footer from "../components/footer";
-import Masthead from "../components/masthead";
 import React, { useState, useEffect } from "react";
+import BodyClassName from 'react-body-classname';
 import ProfileImage from '../images/Tennis_Profile.png'
 import shows from '../data/showdates.json';
 
@@ -22,9 +20,7 @@ const HomeScreen = (props) => {
 
 
   return (
-    <div className="background-about">
-      <Masthead />
-      <Nav />
+    <BodyClassName className="background-about">
       <main className="container p-2 mb-4 rounded">
         <h1 className="headingformats">About Us</h1>
         <hr />
@@ -113,9 +109,7 @@ const HomeScreen = (props) => {
           </div>
         </article>
       </main>
-
-      <Footer />
-    </div>
+    </BodyClassName>
   );
 };
 

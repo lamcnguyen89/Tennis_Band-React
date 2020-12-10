@@ -1,7 +1,5 @@
-import Nav from "../../components/nav";
-import Footer from "../../components/footer";
-import Masthead from "../../components/masthead";
 import React from "react";
+import BodyClassName from 'react-body-classname';
 
 /**
  * @author
@@ -10,9 +8,7 @@ import React from "react";
 
 const Swimmer = (props) => {
   return (
-    <div className="background-album">
-      <Masthead />
-      <Nav />
+    <BodyClassName className="background-album">
       <main className="container p-2 my-4">
         <h1>Swimmer</h1>
         <h4>
@@ -1153,8 +1149,7 @@ const Swimmer = (props) => {
           </div>
         </div>
       </main>
-      <Footer />
-    </div>
+    </BodyClassName>
   );
 };
 
