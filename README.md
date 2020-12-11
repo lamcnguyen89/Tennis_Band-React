@@ -1,4 +1,4 @@
-# Tennis_Band-React
+# Tennis Band Website Built in React
 A Fan website for the band Tennis built in React
 
 ## Author
